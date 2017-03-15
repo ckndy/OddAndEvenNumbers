@@ -17,16 +17,13 @@ public class Numbers {
     // A number is called even if it is divisible by two.
     // A number is called odd if it is not divisible by two.
 
-    if ( number % 2 == 0 ) // This number is even
-      if (number % 2 != 0) // This number is odd
-
-
-    //   System.out.println("This number is even");
-
-    // else
-      
-    //   System.out.println("This number is odd");
+    if (number % 2 == 0) {
+      System.out.println("This number is even");
+    }
+    
+    if (number % 2 != 0) {
+      System.out.println("This number is odd");
+    }
   }
-
-
 }
+   
